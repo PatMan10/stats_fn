@@ -1,5 +1,5 @@
 [package]
-name = "mean_median_mode"
+name = "stats_fn"
 version = "0.1.0"
 edition = "2021"
 

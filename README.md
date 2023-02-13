@@ -1,1 +1,1 @@
-Most common measures of central tendency.
+Functions to calculate the most common measures of central tendency.
