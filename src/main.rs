@@ -31,13 +31,13 @@ fn mean(numbers: &Vec<u32>) -> f32 {
     for n in numbers {
         mean += n;
     }
-    (mean as f32) / (numbers.len() as f32 * 1.0)
+    (mean as f32) / (numbers.len() as f32)
 }
 
 fn median(numbers: &Vec<u32>) -> f32 {
     if numbers.len() % 2 != 0 {
         let i = numbers.len() / 2;
-        numbers[i] as f32 * 1.0
+        numbers[i] as f32
     } else {
         let i = numbers.len() / 2;
         let a = numbers[i - 1];
